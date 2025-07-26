@@ -3,6 +3,7 @@ int largest(int arr[], int n) {
     for (int i = 1; i < n; i++) {
         if (arr[i] > max) {
             max = arr[i];
+             max = arr[i];
         }
     }
     return max;
